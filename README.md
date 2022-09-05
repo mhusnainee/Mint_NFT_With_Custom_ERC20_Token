@@ -249,6 +249,10 @@ And the 0.5 IECT are deducted from this account with 1 NFTB credited
 
 ![333](https://user-images.githubusercontent.com/96762657/188432550-6c0d1100-c469-4c67-91ae-a6a4f3f01cab.PNG)
 
+Minted NFT on Opensea is :
+
+![444](https://user-images.githubusercontent.com/96762657/188444105-9e87564b-b154-4166-bccf-fd86511add18.PNG)
+
 ## Verifying the contracts on 
 
 ``` Etherscan.io ```
