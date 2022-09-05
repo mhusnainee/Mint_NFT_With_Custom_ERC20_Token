@@ -1,6 +1,6 @@
 # Mint_NFT_With_Custom_ERC20_Token
 ## Step by step guide
-- Setting up project in Visual Studio Code
+## Setting up project in Visual Studio Code
 
 Create a new folder and open this folder in visual studio code
 
@@ -32,7 +32,7 @@ Now run the folloing command and select ```create a simple hardhat project ``` t
 
  ### Let's Code
  
- - ERC20 Contract
+ ## ERC20 Contract
  
  Create a file named ```ERC20.sol``` in contracts folder and paste the following code in it
  
@@ -49,7 +49,7 @@ contract MYERC20 is ERC20 {
 }
 ```
 
-- ERC721 Contract
+## ERC721 Contract
 
 Now create and other file named ```ERC721.sol``` in the cotracts folder and paste the following code in it
 
@@ -98,7 +98,7 @@ contract MYERC721 is ERC721, ERC721URIStorage, Ownable {
 }
 ```
 
-- Configure hardhat.config.js
+## Configure hardhat.config.js
 
 Now open the ```hardhat.config.js``` file and paste the following code in it
 
@@ -130,7 +130,7 @@ module.exports = {
 };
 ```
 
-- ERC20 deploy script
+## ERC20 deploy script
 
 Now create a file named ```deployERC20.js``` in the scripts folder and paste the following code in it
 
@@ -152,7 +152,7 @@ main().catch((error) => {
 });
 ```
 
-- ERC721 deploy script
+## ERC721 deploy script
 
 Now create another file named ```deployERC721.js``` and paste the following code in it
 
@@ -176,7 +176,7 @@ main().catch((error) => {
 });
 ```
 
-- Deploing contracts on Rinkeby network
+## Deploing contracts on Rinkeby network
 
 Now run the following command
 
@@ -190,7 +190,7 @@ Now deploy ERC721 contract by running the folllwoing command
 
 And you will gain get a contract address and paste it in the ``` .env ``` file aslo
 
-- Buy nft scipt
+## Buy nft scipt
 
 Now create a file named ``` buyNFT.js ``` in the scripts folder and paste the following code in it
 
@@ -249,7 +249,9 @@ And the 0.5 IECT are deducted from this account with 1 NFTB credited
 
 ![333](https://user-images.githubusercontent.com/96762657/188432550-6c0d1100-c469-4c67-91ae-a6a4f3f01cab.PNG)
 
-- Verifying the contracts on ``` Etherscan.io ```
+## Verifying the contracts on 
+
+``` Etherscan.io ```
 
 ERC20 Contract is verified at address 
 
